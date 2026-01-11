@@ -4,7 +4,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-app_version = "0.0.3"
+app_version = "0.0.4"
 
 @app.route("/")
 def hello_world():
